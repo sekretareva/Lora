@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_choose"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UNAuthActivity"
+    android:background="@color/app_color">
+
+    <Button
+        android:id="@+id/backbutt"
+        android:layout_gravity="left"
+        android:layout_width="300px"
+        android:layout_height="160px"
+        android:layout_marginTop="80px"
+        android:paddingTop="3dp"
+
+        android:background="@drawable/backbutt"
+
+        android:onClick="gotoChoose"/>
+
+    <View
+        android:layout_width="652px"
+        android:layout_height="602px"
+        android:layout_marginTop="200px"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@drawable/brokenauth"/>
+
+    <View
+        android:layout_width="700px"
+        android:layout_height="310px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90px"
+        android:layout_marginLeft="30px"
+        android:paddingTop="3dp"
+
+        android:background="@drawable/unauthfail"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="860px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:paddingTop="3dp"
+
+        android:text="@string/exit"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/border"
+
+        android:onClick="gotoMain"/>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoraApp</string>
+    <string name="login">LOGIN</string>
+    <string name="role">ROLE</string>
+    <string name="title_activity_fragment_map">Map</string>
+    <string name="exit">EXIT</string>
+
+    <string name="type">Type of measured value</string>
+    <string name="period">Period</string>
+    <string name="sensor_group">Sensor group</string>
+
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="value">Value</string>
+
+
+    <string name="params">Params</string>
+    <string name="real">Real</string>
+    <string name="lattitude">Lattitude</string>
+    <string name="longtitude">Longtitude</string>
+    <string name="neighbours">Neighbours</string>
+    <string name="status">Status</string>
+    <string name="code">Code</string>
+
+    <string-array name="roles">
+        <item>ENGINEER</item>
+        <item>MECHANIC</item>
+    </string-array>
+
+    <string-array name="dates">
+        <item>Last Day</item>
+        <item>Today</item>
+        <item>Next Day</item>
+    </string-array>
+
+</resources>

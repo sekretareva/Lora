@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_choose"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity"
+    android:background="@color/app_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_gravity="left"
+            android:layout_width="300px"
+            android:layout_height="160px"
+            android:layout_marginTop="80px"
+            android:paddingTop="3dp"
+
+            android:background="@drawable/backbutt"
+
+            android:onClick="gotoMechanic"/>
+
+        <Button
+            android:layout_width="800px"
+            android:layout_height="158px"
+            android:layout_gravity="right"
+            android:layout_marginTop="81px"
+            android:layout_marginLeft="700px"
+            android:background="@drawable/sensor"
+
+            android:paddingTop="3dp"
+
+            android:onClick="gotoMechanic"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="800px"
+        android:layout_height="300px"
+        android:layout_marginTop="200px"
+        android:paddingTop="3dp"
+
+        android:background="@drawable/devices"
+
+        android:onClick="gotoTable"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="800px"
+        android:layout_height="300px"
+        android:layout_marginTop="40px"
+        android:paddingTop="3dp"
+
+        android:background="@drawable/coordbutt" />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="800px"
+        android:layout_height="300px"
+        android:layout_marginTop="20px"
+        android:paddingTop="3dp"
+
+        android:background="@drawable/qrs" />
+
+</LinearLayout>

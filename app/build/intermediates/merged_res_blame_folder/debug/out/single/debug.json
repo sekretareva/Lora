@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_security.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\security.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brokenauth.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\brokenauth.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sensor.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_sensor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_qr_code.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_qr_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_registfiled.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\registfiled.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_item.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_onepin.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\onepin.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_item.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\sensor_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_change.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\change.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transfercomplete.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\transfercomplete.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_success.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_add_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\font_october.ttf.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\font\\october.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_engineer.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_engineer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_watchsensorinfobutt.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\watchsensorinfobutt.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_myinf.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\myinf.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_person.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\person.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_check_q_r_code.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_check_q_r_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_secpin.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\secpin.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_u_n_auth.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_u_n_auth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_marker.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\marker.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_data.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\data.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sensor.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\sensor.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_registrcomplete.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\registrcomplete.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addcomplete.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\addcomplete.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_devices.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\devices.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_devicespick.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\devicespick.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sensor_mechanic.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_sensor_mechanic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_table.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_coordbutt.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\coordbutt.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_update.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\update.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backbutt.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\backbutt.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_transfer_success.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_transfer_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addsensorinfobutt.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\addsensorinfobutt.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register_success.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_register_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_file.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\file.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_qrs.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\qrs.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_check_success.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_check_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_watchinfobutt.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\watchinfobutt.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_sensor.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_add_sensor.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_unauthfail.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\unauthfail.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_unauthmessage.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\unauthmessage.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_addsensor.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\addsensor.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_authcomplete.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\authcomplete.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_data.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_skanning.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\skanning.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_relocate.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\relocate.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_choose.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\layout\\activity_choose.xml"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sec_update.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\sec_update.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info.png.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\info.png"
+    },
+    {
+        "merged": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\res\\merged\\debug\\drawable_table_item.xml.flat",
+        "source": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\src\\main\\res\\drawable\\table_item.xml"
+    }
+]

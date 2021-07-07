@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:thickness="0dp"
+    android:shape="rectangle">
+    <stroke android:width="0dp"
+        android:color="@color/white"/>
+    <corners android:radius="7dp" />
+    <gradient
+        android:startColor="@color/spinner_item_color"
+        android:endColor="@color/spinner_item_color"
+        android:type="linear"
+        android:angle="270"/>
+</shape>

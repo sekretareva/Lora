@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_choose"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ChooseActivity"
+        android:background="@color/app_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_gravity="left"
+            android:layout_width="300px"
+            android:layout_height="160px"
+            android:layout_marginTop="80px"
+            android:paddingTop="3dp"
+
+            android:background="@drawable/backbutt"
+
+            android:onClick="gotoMain"/>
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_width="612px"
+            android:layout_height="612px"
+            android:layout_marginTop="40px"
+
+            android:background="@drawable/onepin"
+
+            android:onClick="gotoQRCheckRegister"/>
+
+        <Button
+            android:layout_alignParentLeft="true"
+            android:layout_width="492px"
+            android:layout_height="492px"
+            android:layout_marginTop="255px"
+            android:layout_marginLeft="70px"
+            android:layout_marginBottom="50px"
+
+            android:background="@drawable/secpin"
+
+            android:onClick="gotoQRCheckTransfer"/>
+
+    </RelativeLayout>
+
+    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+</LinearLayout>

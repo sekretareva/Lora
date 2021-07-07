@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/app_color">
+
+    <View
+        android:layout_width="652px"
+        android:layout_height="602px"
+        android:layout_marginTop="200px"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@drawable/person"/>
+
+    <Spinner
+        android:id="@+id/role"
+        android:entries="@array/roles"
+
+        android:layout_width="860px"
+        android:layout_height="133px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200px"
+        android:paddingLeft="13dp"
+
+        style="@style/mySpinnerItemStyle"
+        android:background="@drawable/border"
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="860px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:paddingTop="3dp"
+
+        android:text="@string/login"
+        android:textSize="20dp"
+        android:background="@drawable/border"
+
+        android:onClick="gotoChooseActivity"/>
+
+</LinearLayout>

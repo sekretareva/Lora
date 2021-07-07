@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_color"
+
+    android:paddingTop="10px"
+    android:paddingLeft="10px"
+    android:paddingBottom="10px"
+    android:paddingRight="0px"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/name_item_color">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+
+            android:text="@string/real"
+
+            android:paddingTop="22px"
+            android:paddingBottom="22px"
+            android:paddingLeft="30px"
+
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/date"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+
+            android:text="@string/real"
+
+            android:paddingTop="22px"
+            android:paddingBottom="22px"
+            android:paddingLeft="30px"
+
+            android:background="@drawable/table_item"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+
+            android:text="@string/time"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+
+            android:text="@string/real"
+
+            android:paddingTop="22px"
+            android:paddingBottom="22px"
+            android:paddingLeft="30px"
+
+            android:background="@drawable/table_item"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+
+            android:text="@string/value"/>
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+
+            android:text="@string/real"
+
+            android:paddingTop="22px"
+            android:paddingBottom="22px"
+            android:paddingLeft="30px"
+
+            android:background="@drawable/table_item"/>
+    </LinearLayout>
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/photo"/>-->
+
+</LinearLayout>

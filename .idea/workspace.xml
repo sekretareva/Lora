@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="mytag" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e02cdc4c-6e48-4823-9b05-109d6fee02ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LoraApp/app/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoraApp/app/src/main/java/com/example/loraapp/DataActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoraApp/app/src/main/res/drawable/unauthmessage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoraApp/app/src/main/res/layout/activity_choose.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoraApp/app/src/main/res/layout/activity_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LoraApp/app/src/release/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/java/com/example/myapplication/PersonalActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBs/app/src/main/java/com/example/dbs/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DBs/app/src/main/java/com/example/dbs/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/java/com/example/favoritefilmsapplication/AllMovieActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/java/com/example/favoritefilmsapplication/AllMovieActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/java/com/example/favoritefilmsapplication/MovieActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/java/com/example/favoritefilmsapplication/MovieActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/java/com/example/favoritefilmsapplication/PopularMovieListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/java/com/example/favoritefilmsapplication/PopularMovieListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/java/com/example/favoritefilmsapplication/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/java/com/example/favoritefilmsapplication/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/res/layout/activity_all_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/res/layout/activity_all_movie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/res/layout/activity_movie.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/res/layout/activity_movie.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/res/layout/activity_popular_movie_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/res/layout/activity_popular_movie_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FavoriteFilmsApplication/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/java/com/example/myapplication/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LoraApp/app/src/main/java/com/example/loraapp/ChooseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyApplication3/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PicassoApplication/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PicassoApplication/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PicassoApplication/app/src/main/java/com/example/picassoapplication/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PicassoApplication/app/src/main/java/com/example/picassoapplication/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PicassoApplication/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PicassoApplication/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_XL_API_30]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ud9khO7GOlI63z1GIyIz47rglW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_XL_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-07T02:28:01.829Z" />
+    <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1119150559">
+      <recent name="com.example.loraapp" />
+    </key>
+    <key name="android.template.-1306943267">
+      <recent name="com.example.loraapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Katya\AndroidStudioProjects\LoRa-Application-main\app\src\main\res\drawable" />
+      <recent name="C:\Users\Katya\AndroidStudioProjects\LoraApp\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.1629771717">
+      <recent name="com.example.loraapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Katya\AndroidStudioProjects\LoRa-Application-main\app\src\main\res\drawable" />
+      <recent name="C:\Users\Katya\AndroidStudioProjects\LoraApp\app\src\main\res\drawable" />
+      <recent name="C:\Users\Katya\AndroidStudioProjects\LoraApp\app\src\main\res\font" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="LoraApp.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e02cdc4c-6e48-4823-9b05-109d6fee02ad" name="Default Changelist" comment="" />
+      <created>1624984743874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624984743874</updated>
+    </task>
+    <task id="LOCAL-00001" summary="QR-code scanner + Server Connection">
+      <created>1625386026636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625386026636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="QR-code scanner + Server Connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="QR-code scanner + Server Connection" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="175" y="145" key="#PSD" timestamp="1625497051565">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="175" y="145" key="#PSD/0.0.1707.920@0.0.1707.920" timestamp="1625497051565" />
+    <state x="574" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1625467586766">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1625467586766" />
+    <state x="554" y="137" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1625398910415">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="554" y="137" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1625398910415" />
+    <state x="106" y="104" width="1507" height="720" key="AVDManager" timestamp="1625652304890">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="106" y="104" width="1507" height="720" key="AVDManager/0.0.1707.920@0.0.1707.920" timestamp="1625652304890" />
+    <state x="349" y="187" key="AndroidCreateResourceFileDialog" timestamp="1625375138886">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="349" y="187" key="AndroidCreateResourceFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1625375138886" />
+    <state x="614" y="235" key="AndroidCreateXmlResourceDialog" timestamp="1625466264877">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="614" y="235" key="AndroidCreateXmlResourceDialog/0.0.1536.864@0.0.1536.864" timestamp="1625466264877" />
+    <state x="341" y="0" key="CommitChangelistDialog2" timestamp="1625386013429">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="341" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1625386013429" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1625467022889">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1625467022889" />
+    <state width="1662" height="232" key="GridCell.Tab.0.bottom" timestamp="1625653500941">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1491" height="200" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625486695919" />
+    <state width="1662" height="232" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1625653500941" />
+    <state width="1662" height="232" key="GridCell.Tab.0.center" timestamp="1625653500941">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1491" height="200" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625486695919" />
+    <state width="1662" height="232" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1625653500941" />
+    <state width="1662" height="232" key="GridCell.Tab.0.left" timestamp="1625653500941">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1491" height="200" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625486695919" />
+    <state width="1662" height="232" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1625653500941" />
+    <state width="1662" height="232" key="GridCell.Tab.0.right" timestamp="1625653500941">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1491" height="200" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625486695919" />
+    <state width="1662" height="232" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1625653500941" />
+    <state x="355" y="105" key="SettingsEditor" timestamp="1625645259343">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1625645259343" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1625386164983">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1625386164983" />
+  </component>
+</project>

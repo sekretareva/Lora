@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_engineer"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EngineerActivity"
+    android:background="@color/app_color">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_gravity="left"
+            android:layout_width="300px"
+            android:layout_height="160px"
+            android:layout_marginTop="80px"
+            android:paddingTop="3dp"
+
+            android:background="@drawable/backbutt"
+
+            android:onClick="gotoMain"/>
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_width="612px"
+            android:layout_height="612px"
+            android:layout_marginTop="40px"
+
+            android:background="@drawable/onepin"
+
+            android:onClick="gotoQRCheckRegister"/>
+
+
+
+    </RelativeLayout>
+
+    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        class="com.google.android.gms.maps.SupportMapFragment"/>
+
+</LinearLayout>

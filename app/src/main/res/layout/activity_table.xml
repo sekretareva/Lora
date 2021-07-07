@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_choose"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TableActivity">
+
+        <Button
+            android:id="@+id/backbutt"
+            android:layout_gravity="left"
+            android:layout_width="300px"
+            android:layout_height="160px"
+            android:layout_marginTop="80px"
+            android:paddingTop="3dp"
+
+            android:background="@drawable/backbutt"
+
+            android:onClick="gotoData"/>
+
+        <View
+            android:layout_width="552px"
+            android:layout_height="502px"
+            android:layout_marginTop="50px"
+            android:layout_gravity="center_horizontal"
+
+            android:background="@drawable/devicespick"/>\
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listview"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

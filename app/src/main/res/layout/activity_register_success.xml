@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_choose"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterSuccessActivity"
+    android:background="@color/app_color">
+
+    <Button
+        android:id="@+id/backbutt"
+        android:layout_gravity="left"
+        android:layout_width="300px"
+        android:layout_height="160px"
+        android:layout_marginTop="80px"
+        android:paddingTop="3dp"
+
+        android:background="@drawable/backbutt"
+
+        android:onClick="goToMain" />
+
+    <View
+        android:layout_width="652px"
+        android:layout_height="602px"
+        android:layout_marginTop="100px"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@drawable/file"/>
+
+    <View
+        android:layout_width="500px"
+        android:layout_height="210px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90px"
+        android:paddingTop="3dp"
+
+        android:background="@drawable/registrcomplete"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="800px"
+        android:layout_height="250px"
+        android:layout_marginTop="40px"
+        android:paddingTop="3dp"
+
+        android:background="@drawable/addsensorinfobutt"
+
+        android:onClick="gotoAddSensorInfo"/>
+
+</LinearLayout>

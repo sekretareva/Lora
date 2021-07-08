@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Katya\\AndroidStudioProjects\\LoRa-Application-main\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Katya\\.gradle\\caches\\transforms-2\\files-2.1\\a95be6f4f71421a416bcfcd8b9579293\\jetified-QRCodeScanner-0.1.2\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\5d0b4edbf051d7b448817e7e201263d5\\jetified-QRCodeScanner-0.1.2\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

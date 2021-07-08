@@ -25,7 +25,7 @@ public class CheckSuccessActivity extends AppCompatActivity {
     }
 
     public void goToMain(View view) {
-        Intent intent = new Intent(CheckSuccessActivity.this, ChooseActivity.class);
+        Intent intent = new Intent(CheckSuccessActivity.this, MechanicActivity.class);
         startActivity(intent);
     }
 
@@ -46,14 +46,16 @@ public class CheckSuccessActivity extends AppCompatActivity {
         }
 
         ServerConnection conn = new ServerConnection(url, this);
-        conn.sendPos(device_code, new DeviceCoords(latitude, longitude));
+        conn.sendPos(device_code, new DeviceCoords(latitude, longitude), "trans");
 
         Intent intent = new Intent(CheckSuccessActivity.this, TransferSuccessActivity.class);
+        intent.putExtra("device_code", device_code);
         startActivity(intent);
     }
 
     public void gotoSensors(View v) {
         Intent intent = new Intent(CheckSuccessActivity.this, SensorActivity.class);
+        intent.putExtra("device_code", device_code);
         startActivity(intent);
     }
 }

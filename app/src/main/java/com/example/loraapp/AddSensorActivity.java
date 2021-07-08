@@ -28,12 +28,12 @@ public class AddSensorActivity extends AppCompatActivity {
         tv_sensor_group = findViewById(R.id.sensor_group);
     }
 
-    public void goToMain(View v){
+    public void gotoMain(View v){
         Intent intent = new Intent(AddSensorActivity.this, EngineerActivity.class);
         startActivity(intent);
     }
 
-    public void gotoRegisterSuccess(View v) throws IOException {
+    public void gotoAddSuccess(View v) throws IOException {
         String code = tv_code.getText().toString().trim();
         String type = tv_type.getText().toString();
         String period = tv_period.getText().toString();
@@ -44,9 +44,6 @@ public class AddSensorActivity extends AppCompatActivity {
 
             QRGenerator qrGenerator = new QRGenerator(code, this);
             conn.sendDev(new DeviceParameters(code, qrGenerator.generate(), type, Integer.parseInt(period)));
-
-            Intent intent = new Intent(AddSensorActivity.this, AddSuccessActivity.class);
-            startActivity(intent);
         }
         else{
             Toast.makeText(AddSensorActivity.this, "Заполните все поля ", Toast.LENGTH_SHORT).show();

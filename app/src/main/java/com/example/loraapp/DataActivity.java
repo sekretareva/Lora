@@ -15,7 +15,7 @@ public class DataActivity extends AppCompatActivity {
     }
 
     public void gotoMechanic(View v) {
-        Intent intent = new Intent(DataActivity.this, SensorMechanicActivity.class);
+        Intent intent = new Intent(DataActivity.this, SensorActivity.class);
         startActivity(intent);
     }
 

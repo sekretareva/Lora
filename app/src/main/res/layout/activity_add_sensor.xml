@@ -26,7 +26,7 @@
 
             android:background="@drawable/backbutt"
 
-            android:onClick="goToMain"/>
+            android:onClick="gotoMain"/>
 
         <View
             android:layout_width="652px"
@@ -111,7 +111,7 @@
 
             android:paddingTop="3dp"
 
-            android:onClick="gotoRegisterSuccess"/>
+            android:onClick="gotoAddSuccess"/>
 
     </LinearLayout>
 </ScrollView>

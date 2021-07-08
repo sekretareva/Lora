@@ -15,13 +15,14 @@ public class AddSuccessActivity extends AppCompatActivity {
 
     }
 
-    public void gotoChoose(View v){
+    public void gotoMain(View v){
         Intent intent = new Intent(AddSuccessActivity.this, EngineerActivity.class);
         startActivity(intent);
     }
 
     public void gotoSensors(View v) {
         Intent intent = new Intent(AddSuccessActivity.this, SensorActivity.class);
+        intent.putExtra("device_code", getIntent().getStringExtra("device_code"));
         startActivity(intent);
     }
 

@@ -39,15 +39,4 @@
 
         android:background="@drawable/registrcomplete"/>
 
-    <Button
-        android:layout_gravity="center_horizontal"
-        android:layout_width="800px"
-        android:layout_height="250px"
-        android:layout_marginTop="40px"
-        android:paddingTop="3dp"
-
-        android:background="@drawable/addsensorinfobutt"
-
-        android:onClick="gotoAddSensorInfo"/>
-
 </LinearLayout>

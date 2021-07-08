@@ -21,6 +21,7 @@ public class TransferSuccessActivity extends AppCompatActivity {
 
     public void gotoSensors(View v) {
         Intent intent = new Intent(TransferSuccessActivity.this, SensorActivity.class);
+        intent.putExtra("device_code", getIntent().getStringExtra("device_code"));
         startActivity(intent);
     }
 }

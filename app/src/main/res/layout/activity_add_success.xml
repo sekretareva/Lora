@@ -20,7 +20,7 @@
 
         android:background="@drawable/backbutt"
 
-        android:onClick="gotoChoose" />
+        android:onClick="gotoMain" />
 
     <View
         android:layout_width="652px"

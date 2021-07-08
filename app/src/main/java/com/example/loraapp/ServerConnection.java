@@ -3,8 +3,13 @@ package com.example.loraapp;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
+import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.gson.GsonBuilder;
 
 import java.util.Arrays;
@@ -13,6 +18,7 @@ import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
+import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.Body;
@@ -47,22 +53,24 @@ public class ServerConnection {
         this.context = context;
     }
 
-    public void getValuesDef(String device_code){
+    public void getValuesDef(String device_code, ListView lv){
         Connection conn = retrofit.create(Connection.class);
         Call<List<List<String>>> call = conn.getValuesDef(device_code);
         Callback<List<List<String>>> callback = new Callback<List<List<String>>>(){
             @Override
             public void onResponse(Call<List<List<String>>> call, retrofit2.Response<List<List<String>>> response) {
                 List<List<String>> r = response.body();
-                Log.d("RESULT",response.headers()+" " + response.body());
+                Log.d("RESULT GETVALDEF",response.headers()+" " + response.body());
                 if (r!=null && r.size()>0){
-                    Log.d("RESULT", r.get(0)+"");
+                    Log.d("RESULT GETVALDEF", r.get(0)+"");
+                    DeviceAdapter adapter = new DeviceAdapter(r, context);
+                    lv.setAdapter(adapter);
                 }
             }
 
             @Override
             public void onFailure(Call<List<List<String>>> call, Throwable t) {
-                Log.d("FAIL", t.getLocalizedMessage());
+                Log.d("FAIL GETVALDEF", t.getLocalizedMessage());
             }
         };
         call.enqueue(callback);
@@ -75,15 +83,15 @@ public class ServerConnection {
             @Override
             public void onResponse(Call<List<List<String>>> call, retrofit2.Response<List<List<String>>> response) {
                 List<List<String>> r = response.body();
-                Log.d("RESULT",response.headers()+" " + response.body());
+                Log.d("RESULT GETVAL",response.headers()+" " + response.body());
                 if (r!=null && r.size()>0){
-                    Log.d("RESULT", r.get(0)+"");
+                    Log.d("RESULT GETVAL", r.get(0)+"");
                 }
             }
 
             @Override
             public void onFailure(Call<List<List<String>>> call, Throwable t) {
-                Log.d("FAIL", t.getLocalizedMessage());
+                Log.d("FAIL GETVAL", t.getLocalizedMessage());
             }
         };
         call.enqueue(callback);
@@ -94,33 +102,32 @@ public class ServerConnection {
 
         Call<String> call = conn.sendDev(new DeviceRequest(deviceParameters));
 
-        Log.d("RESULT",call.request()+"");
         Callback<String> callback = new Callback<String>(){
             @Override
             public void onResponse(Call<String> call, retrofit2.Response<String> response) {
                 String status = response.body();
-                Log.d("RESULT",response.headers()+" " + response.body());
+                Log.d("RESULT SENDDEV",response.headers()+" " + response.body());
                 if (status!=null && status.equals("ok")){
-                    Intent intent = new Intent(context, RegisterSuccessActivity.class);
+                    Intent intent = new Intent(context, AddSuccessActivity.class);
+                    intent.putExtra("device_code", deviceParameters.code);
                     context.startActivity(intent);
                 }
                 else{
                     Toast.makeText(context, "Something went wrong", Toast.LENGTH_SHORT).show();
-                    //TODO: можно сделать и другую активити на подобии RegisterSuccessActivity, только Failed
                 }
 
             }
 
             @Override
             public void onFailure(Call<String> call, Throwable t) {
-                Log.d("FAIL", t.getLocalizedMessage());
+                Log.d("FAIL SENDDEV", t.getLocalizedMessage());
                 Toast.makeText(context, "Something went wrong", Toast.LENGTH_SHORT).show();
             }
         };
         call.enqueue(callback);
     }
 
-    public void sendPos(String device_code, DeviceCoords coords){
+    public void sendPos(String device_code, DeviceCoords coords, String mode){
         Connection conn = retrofit.create(Connection.class);
 
         CoordsRequest coordsRequest = new CoordsRequest(coords);
@@ -130,38 +137,42 @@ public class ServerConnection {
             @Override
             public void onResponse(Call<String> call, retrofit2.Response<String> response) {
                 String status = response.body();
-                Log.d("RESULT",response.headers()+" " + response.body());
+                Log.d("RESULT SENDPOS",response.headers()+" " + response.body());
                 if (status!=null && status.equals("ok")){
-                    Log.d("RESULT", status);
-                    Intent intent = new Intent(context, AddSuccessActivity.class);
-                    //TODO: AddSuccessActivity сделала на подобие RegisterSuccessActivity, поменяла ссылки, убрала кнопку для регистрации. Поменяй дизайн, если надо
+                    Intent intent = null;
+                    if (mode.equals("reg"))
+                         intent = new Intent(context, RegisterSuccessActivity.class);
+                    else if (mode.equals("trans"))
+                        intent = new Intent(context, TransferSuccessActivity.class);
                     context.startActivity(intent);
                 }
                 else
                     Toast.makeText(context, "Something went wrong", Toast.LENGTH_SHORT).show();
-                //TODO: можно сделать и другую активити на подобии AddSuccessActivity, только Failed
             }
 
             @Override
             public void onFailure(Call<String> call, Throwable t) {
-                Log.d("FAIL", t.getLocalizedMessage());
+                Log.d("FAIL SENDPOS", t.getLocalizedMessage());
                 Toast.makeText(context, "Something went wrong", Toast.LENGTH_SHORT).show();
             }
         };
         call.enqueue(callback);
     }
 
-    public boolean checkPos(String device_code, double latitude, double longitude){
+    public void checkPos(String device_code, double latitude, double longitude){
         Connection conn = retrofit.create(Connection.class);
         Call<CoordsResponse> call = conn.checkPos(device_code);
         Callback<CoordsResponse> callback = new Callback<CoordsResponse>(){
             @Override
             public void onResponse(Call<CoordsResponse> call, retrofit2.Response<CoordsResponse> response) {
                 CoordsResponse coords = response.body();
-                Log.d("RESULT",response.headers()+" " + response.body());
+                Log.d("RESULT CHECKPOS",response.headers()+" " + response.body());
                 if (coords!=null && Math.abs(coords.latitude-latitude)<0.0001 && Math.abs(coords.longitude-longitude)<0.0001){
                     String pos = coords.latitude + " " + coords.longitude;
-                    Log.d("RESULT", pos);
+                    Log.d("RESULT CHECKPOS", pos);
+                    Intent intent = new Intent(context, CheckSuccessActivity.class);
+                    intent.putExtra("device_code", device_code);
+                    context.startActivity(intent);
                 }
                 else{
                     Intent intent = new Intent(context, UNAuthActivity.class);
@@ -171,11 +182,65 @@ public class ServerConnection {
 
             @Override
             public void onFailure(Call<CoordsResponse> call, Throwable t) {
-                Log.d("FAIL", t.getLocalizedMessage());
+                Log.d("FAIL CHECKPOS", t.getLocalizedMessage());
             }
         };
         call.enqueue(callback);
-        return true;
+    }
+
+    public void setMarker(String device_code, GoogleMap map){
+        Connection conn = retrofit.create(Connection.class);
+        Call<CoordsResponse> call = conn.checkPos(device_code);
+        Callback<CoordsResponse> callback = new Callback<CoordsResponse>(){
+            @Override
+            public void onResponse(Call<CoordsResponse> call, Response<CoordsResponse> response) {
+                CoordsResponse coords = response.body();
+                Log.d("RESULT SETMARKER",response.headers()+" " + response.body());
+                if (coords!=null){
+                    LatLng pos = new LatLng(coords.longitude, coords.latitude);
+                    Log.d("RESULT SETMARKER",coords.latitude +" "+ coords.longitude);
+                    MarkerOptions marker = new MarkerOptions().position(pos).title(device_code);
+                    map.addMarker(marker);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<CoordsResponse> call, Throwable t) {
+                Log.d("FAIL SETMARKER", t.getLocalizedMessage());
+            }
+        };
+        call.enqueue(callback);
+    }
+
+    public void setCurValue(String device_code, Marker marker){
+        if(marker.isInfoWindowShown()){
+            marker.hideInfoWindow();
+            return;
+        }
+        else{
+            Connection conn = retrofit.create(Connection.class);
+            Call<List<List<String>>> call = conn.getValues(device_code, 1);
+            Callback<List<List<String>>> callback = new Callback<List<List<String>>>(){
+                @Override
+                public void onResponse(Call<List<List<String>>> call, retrofit2.Response<List<List<String>>> response) {
+                    List<List<String>> r = response.body();
+                    Log.d("RESULT SETCURVAL",response.headers()+" " + response.body());
+                    marker.setTitle("device: "+device_code);
+                    marker.showInfoWindow();
+                    if (r!=null && r.size()>0){
+                        marker.setTitle(marker.getTitle() + "\n value: " + r.get(0).get(0));
+                        marker.showInfoWindow();
+                        Log.d("RESULT SETCURVAL", r.get(0)+"");
+                    }
+                }
+
+                @Override
+                public void onFailure(Call<List<List<String>>> call, Throwable t) {
+                    Log.d("FAIL SETCURVAL", t.getLocalizedMessage());
+                }
+            };
+            call.enqueue(callback);
+        }
     }
 }
 

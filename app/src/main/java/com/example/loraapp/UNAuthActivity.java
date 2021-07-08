@@ -20,7 +20,7 @@ public class UNAuthActivity extends AppCompatActivity {
     }
 
     public void gotoChoose(View v) {
-        Intent intent = new Intent(UNAuthActivity.this, ChooseActivity.class);
+        Intent intent = new Intent(UNAuthActivity.this, MechanicActivity.class);
         startActivity(intent);
     }
 }

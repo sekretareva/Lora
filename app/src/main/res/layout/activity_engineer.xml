@@ -33,7 +33,7 @@
 
             android:background="@drawable/onepin"
 
-            android:onClick="gotoQRCheckRegister"/>
+            android:onClick="gotoAddSensor"/>
 
 
 
@@ -46,5 +46,17 @@
         android:layout_weight="1"
         android:scrollbars="vertical"
         class="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <Button
+        android:id="@+id/dataButton"
+        android:layout_gravity="right"
+        android:layout_width="300px"
+        android:layout_height="160px"
+        android:paddingTop="3dp"
+
+        android:text="DATA"
+        android:visibility="invisible"
+        android:onClick="gotoData"
+        android:background="@color/app_color"/>
 
 </LinearLayout>

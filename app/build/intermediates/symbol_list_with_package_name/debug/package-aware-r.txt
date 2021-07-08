@@ -1172,6 +1172,7 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color name_item_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color primary_dark_material_dark
@@ -1877,7 +1878,6 @@ id activity_choose
 id activity_chooser_view_content
 id activity_engineer
 id activity_sensor_engineer
-id activity_sensor_mechanic
 id add
 id adjust_height
 id adjust_width
@@ -1937,8 +1937,9 @@ id custom
 id customPanel
 id cut
 id dark
+id dataButton
+id date
 id date_picker_actions
-id dates
 id decelerate
 id decelerateAndComplete
 id decode
@@ -2024,7 +2025,6 @@ id jumpToStart
 id labelGroup
 id labeled
 id largeLabel
-id lattitude
 id layout
 id left
 id leftToRight
@@ -2035,7 +2035,6 @@ id linear
 id listMode
 id list_item
 id listview
-id longtitude
 id map
 id masked
 id material_clock_display
@@ -2057,7 +2056,6 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
-id max_delay
 id message
 id middle
 id mini
@@ -2094,7 +2092,6 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id name
 id navigation_header_container
-id neightbours
 id never
 id noScroll
 id none
@@ -2108,7 +2105,6 @@ id outline
 id outward
 id packed
 id parallax
-id params
 id parent
 id parentPanel
 id parentRelative
@@ -2136,7 +2132,6 @@ id qr_code_view_finder
 id quit
 id radio
 id ratio
-id real
 id rectangles
 id restart_preview
 id reverseSawtooth
@@ -2201,7 +2196,6 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
-id status
 id stop
 id stretch
 id submenuarrow
@@ -2263,6 +2257,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id value
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2338,16 +2333,14 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_sensor
 layout activity_add_success
-layout activity_check_q_r_code
 layout activity_check_success
-layout activity_choose
 layout activity_data
 layout activity_engineer
 layout activity_main
+layout activity_mechanic
 layout activity_qr_code
 layout activity_register_success
 layout activity_sensor
-layout activity_sensor_mechanic
 layout activity_table
 layout activity_transfer_success
 layout activity_u_n_auth
@@ -2494,6 +2487,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string date
 string error_icon_content_description
 string exit
 string exposed_dropdown_menu_content_description
@@ -2521,7 +2515,6 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
-string max_delay
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -2584,9 +2577,11 @@ string search_menu_title
 string sensor_group
 string status
 string status_bar_notification_info_overflow
+string time
 string title_activity_fragment_map
 string title_activity_scan_qr_code
 string type
+string value
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

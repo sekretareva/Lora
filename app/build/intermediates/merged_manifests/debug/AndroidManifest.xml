@@ -71,7 +71,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.example.loraapp.ChooseActivity" />
+        <activity android:name="com.example.loraapp.MechanicActivity" />
         <activity android:name="com.example.loraapp.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

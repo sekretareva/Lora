@@ -15,14 +15,7 @@ public class RegisterSuccessActivity extends AppCompatActivity {
     }
 
     public void goToMain(View v){
-        Intent intent = new Intent(RegisterSuccessActivity.this, EngineerActivity.class);
+        Intent intent = new Intent(RegisterSuccessActivity.this, MechanicActivity.class);
         startActivity(intent);
     }
-
-    public void gotoAddSensorInfo(View v) {
-        Intent intent = new Intent(RegisterSuccessActivity.this, AddSensorActivity.class);
-        startActivity(intent);
-        //TODO: может, здесь лучше перенаправить на активити с информацией по всем датчикам? Хотя в тз вообще такого нет, можно не париться
-    }
-
 }

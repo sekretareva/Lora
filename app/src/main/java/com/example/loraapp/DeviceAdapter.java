@@ -42,8 +42,10 @@ public class DeviceAdapter extends BaseAdapter {
 
         TextView tvDate = convertView.findViewById(R.id.date);
         TextView tvValue = convertView.findViewById(R.id.value);
+        TextView tvRSSI = convertView.findViewById(R.id.rssi);
         tvDate.setText(device.get(3));
         tvValue.setText(device.get(2));
+        tvRSSI.setText(device.get(4));
 
         return convertView;
     }

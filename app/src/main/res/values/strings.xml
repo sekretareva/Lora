@@ -12,7 +12,7 @@
 
     <string name="name">Name</string>
     <string name="date">Date</string>
-    <string name="time">Time</string>
+    <string name="rssi">RSSI</string>
     <string name="value">Value</string>
 
 

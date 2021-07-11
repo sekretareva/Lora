@@ -1947,6 +1947,7 @@ id decode_failed
 id decode_succeeded
 id decor_content_parent
 id default_activity_button
+id deleteButton
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -2142,6 +2143,7 @@ id right_side
 id role
 id rounded
 id row_index_key
+id rssi
 id satellite
 id save_non_transition_alpha
 id save_overlay_view
@@ -2573,11 +2575,11 @@ string qr_code_positive_button_know
 string qr_code_select_picture
 string real
 string role
+string rssi
 string search_menu_title
 string sensor_group
 string status
 string status_bar_notification_info_overflow
-string time
 string title_activity_fragment_map
 string title_activity_scan_qr_code
 string type

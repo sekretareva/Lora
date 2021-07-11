@@ -15,7 +15,7 @@ public class TransferSuccessActivity extends AppCompatActivity {
     }
 
     public void gotoBack(View v) {
-        Intent intent = new Intent(TransferSuccessActivity.this, CheckSuccessActivity.class);
+        Intent intent = new Intent(TransferSuccessActivity.this, MechanicActivity.class);
         startActivity(intent);
     }
 

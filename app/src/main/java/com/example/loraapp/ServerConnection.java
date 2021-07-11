@@ -24,6 +24,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
@@ -46,6 +47,12 @@ public class ServerConnection {
 
         @POST("/register/")
         Call<String> sendDev(@Body DeviceRequest device);
+
+        @PUT("/delete/{device_code}")
+        Call<String> delete(@Path("device_code") String device_code);
+
+        @GET("/devices")
+        Call<DeviceListResponse> getDevices();
     }
 
     ServerConnection(String url, Context context){
@@ -133,11 +140,12 @@ public class ServerConnection {
         CoordsRequest coordsRequest = new CoordsRequest(coords);
 
         Call<String> call = conn.sendPos(device_code, coordsRequest);
+        Log.d("RESULT SENDPOS",coords.latitude + " " + coords.longitude);
         Callback<String> callback = new Callback<String>(){
             @Override
             public void onResponse(Call<String> call, retrofit2.Response<String> response) {
                 String status = response.body();
-                Log.d("RESULT SENDPOS",response.headers()+" " + response.body());
+                Log.d("RESULT SENDPOS",response.headers()+" " + response.body() + " " + response);
                 if (status!=null && status.equals("ok")){
                     Intent intent = null;
                     if (mode.equals("reg"))
@@ -167,7 +175,8 @@ public class ServerConnection {
             public void onResponse(Call<CoordsResponse> call, retrofit2.Response<CoordsResponse> response) {
                 CoordsResponse coords = response.body();
                 Log.d("RESULT CHECKPOS",response.headers()+" " + response.body());
-                if (coords!=null && Math.abs(coords.latitude-latitude)<0.0001 && Math.abs(coords.longitude-longitude)<0.0001){
+                //if (coords!=null && Math.abs(coords.latitude-latitude)<0.0001 && Math.abs(coords.longitude-longitude)<0.0001){
+                if (coords!=null){
                     String pos = coords.latitude + " " + coords.longitude;
                     Log.d("RESULT CHECKPOS", pos);
                     Intent intent = new Intent(context, CheckSuccessActivity.class);
@@ -199,8 +208,8 @@ public class ServerConnection {
                 if (coords!=null){
                     LatLng pos = new LatLng(coords.longitude, coords.latitude);
                     Log.d("RESULT SETMARKER",coords.latitude +" "+ coords.longitude);
-                    MarkerOptions marker = new MarkerOptions().position(pos).title(device_code);
-                    map.addMarker(marker);
+                    MarkerOptions marker = new MarkerOptions().position(pos);
+                    map.addMarker(marker).setTag(device_code);
                 }
             }
 
@@ -225,7 +234,7 @@ public class ServerConnection {
                 public void onResponse(Call<List<List<String>>> call, retrofit2.Response<List<List<String>>> response) {
                     List<List<String>> r = response.body();
                     Log.d("RESULT SETCURVAL",response.headers()+" " + response.body());
-                    marker.setTitle("device: "+device_code);
+                    marker.setTitle("device: "+marker.getTag());
                     marker.showInfoWindow();
                     if (r!=null && r.size()>0){
                         marker.setTitle(marker.getTitle() + "\n value: " + r.get(0).get(0));
@@ -241,6 +250,60 @@ public class ServerConnection {
             };
             call.enqueue(callback);
         }
+    }
+
+    public void delete(String device_code){
+        Connection conn = retrofit.create(Connection.class);
+        Call<String> call = conn.delete(device_code);
+        Callback<String> callback = new Callback<String>(){
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+                String status = response.body();
+                Log.d("RESULT DELETE",response.headers()+" " + response.body());
+                if (status!=null && status.equals("ok")){
+                    Log.d("RESULT DELETE","Deleted");
+                }
+                else{
+                    Toast.makeText(context, "Something went wrong", Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+                Log.d("RESULT DELETE",t.getLocalizedMessage());
+            }
+        };
+        call.enqueue(callback);
+    }
+
+    public void getDevices(Runnable f){
+        Connection conn = retrofit.create(Connection.class);
+        Call<DeviceListResponse> call = conn.getDevices();
+        Callback<DeviceListResponse> callback = new Callback<DeviceListResponse>(){
+            @Override
+            public void onResponse(Call<DeviceListResponse> call, Response<DeviceListResponse> response) {
+                DeviceListResponse devices = response.body();
+                Log.d("RESULT GETDEV",response.headers()+" " + response.raw());
+                if (devices!=null && devices.devices.size()>0){
+                    Log.d("RESULT GETDEV", devices.devices.size()+"");
+                    String[] recievedDevices = new String[devices.devices.size()];
+                    for (int i = 0; i < recievedDevices.length; i++) {
+                        recievedDevices[i] = devices.devices.get(i).get(3);
+                    }
+                    Role deviceList = (Role) context.getApplicationContext();
+                    deviceList.setDevices(Arrays.asList(recievedDevices));
+                    f.run();
+                }
+                else
+                    Log.d("RESULT GETDEV", "No device");
+            }
+
+            @Override
+            public void onFailure(Call<DeviceListResponse> call, Throwable t) {
+                Log.d("FAIL GETDEV", t.getLocalizedMessage());
+            }
+        };
+        call.enqueue(callback);
     }
 }
 

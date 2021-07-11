@@ -30,6 +30,8 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.List;
+
 public class EngineerActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
@@ -44,9 +46,8 @@ public class EngineerActivity extends AppCompatActivity implements OnMapReadyCal
 
     String url = "http://192.168.50.170:5000";
 
-    Button dataButton;
+    Button dataButton, deleteButton;
     String chosenDevice;
-    String[] devices = {"5"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +55,7 @@ public class EngineerActivity extends AppCompatActivity implements OnMapReadyCal
         setContentView(R.layout.activity_engineer);
 
         dataButton = findViewById(R.id.dataButton);
+        deleteButton = findViewById(R.id.deleteButton);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -137,45 +139,14 @@ public class EngineerActivity extends AppCompatActivity implements OnMapReadyCal
         if (granted == true) {
 
             mMap.setMyLocationEnabled(true);
-
-            Log.d("my_tag", myPlace.longitude + "  " + myPlace.latitude);
-
             ServerConnection conn = new ServerConnection(url, this);
-
-            for (String device : devices){
-                conn.setMarker(device, mMap);
-                mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
-                    @Override
-                    public boolean onMarkerClick(@NonNull Marker marker) {
-                        conn.setCurValue(device, marker);
-                        if (dataButton.getVisibility() == View.VISIBLE)
-                            dataButton.setVisibility(View.INVISIBLE);
-                        else{
-                            dataButton.setVisibility(View.VISIBLE);
-                            chosenDevice = device;
-                        }
-                        return true;
-                    }
-                });
-            }
-
-            //  на карту добавляется новый маркер
+            conn.getDevices(setMarkers);
 
             mMap.moveCamera(CameraUpdateFactory.newLatLng(myPlace));
-
             CameraPosition cameraPosition = new CameraPosition(myPlace, 23, 45, 15);
-
             mMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
             mMap.animateCamera(CameraUpdateFactory.zoomTo(15));
-
             locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
-
-//            mMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
-//                @Override
-//                public void onMapClick(@NonNull LatLng latLng) {
-//                    mMap.addMarker(new MarkerOptions().position(latLng).title("Выбранная точка"));
-//                }
-//            });
         }
     }
 
@@ -194,4 +165,39 @@ public class EngineerActivity extends AppCompatActivity implements OnMapReadyCal
         intent.putExtra("device_code", chosenDevice);
         startActivity(intent);
     }
+
+    Runnable setMarkers = new Runnable() {
+        @Override
+        public void run() {
+            ServerConnection conn = new ServerConnection(url, EngineerActivity.this);
+
+            Role deviceList = (Role) getApplicationContext();
+            List<String> devices = deviceList.getDevices();
+
+            for (String device : devices){
+                Log.d("RESULT DEVICES", device);
+                conn.setMarker(device, mMap);
+                mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
+                    @Override
+                    public boolean onMarkerClick(@NonNull Marker marker) {
+                        conn.setCurValue((String) marker.getTag(), marker);
+                        if (dataButton.getVisibility() == View.VISIBLE){
+                            dataButton.setVisibility(View.INVISIBLE);
+                            deleteButton.setVisibility(View.INVISIBLE);
+                        }
+                        else{
+                            dataButton.setVisibility(View.VISIBLE);
+                            deleteButton.setVisibility(View.VISIBLE);
+                            deleteButton.setOnClickListener(v -> {
+                                marker.remove();
+                                conn.delete(device);
+                            });
+                            chosenDevice = device;
+                        }
+                        return true;
+                    }
+                });
+            }
+        }
+    };
 }

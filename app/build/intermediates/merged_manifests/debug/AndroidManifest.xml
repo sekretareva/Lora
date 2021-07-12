@@ -51,13 +51,11 @@
         <activity android:name="com.example.loraapp.AddSuccessActivity" />
         <activity android:name="com.example.loraapp.EngineerActivity" />
         <activity android:name="com.example.loraapp.SensorActivity" />
-        <activity android:name="com.example.loraapp.SensorMechanicActivity" />
         <activity android:name="com.example.loraapp.TableActivity" />
         <activity android:name="com.example.loraapp.AddSensorActivity" />
         <activity android:name="com.example.loraapp.UNAuthActivity" />
         <activity android:name="com.example.loraapp.TransferSuccessActivity" />
         <activity android:name="com.example.loraapp.RegisterSuccessActivity" />
-        <activity android:name="com.example.loraapp.CheckQRCodeActivity" />
         <activity android:name="com.example.loraapp.DataActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

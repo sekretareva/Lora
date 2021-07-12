@@ -61,7 +61,7 @@
 36    </queries>
 37
 38    <application
-38-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:22:5-64:19
+38-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:22:5-62:19
 39        android:name="com.example.loraapp.Role"
 39-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:23:9-29
 40        android:allowBackup="true"
@@ -94,88 +94,82 @@
 53        <activity android:name="com.example.loraapp.SensorActivity" />
 53-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:35:9-52
 53-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:35:19-49
-54        <activity android:name="com.example.loraapp.SensorMechanicActivity" />
-54-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:36:9-60
-54-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:36:19-57
-55        <activity android:name="com.example.loraapp.TableActivity" />
-55-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:37:9-51
-55-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:37:19-48
-56        <activity android:name="com.example.loraapp.AddSensorActivity" />
-56-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:38:9-55
-56-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:38:19-52
-57        <activity android:name="com.example.loraapp.UNAuthActivity" />
-57-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:39:9-52
-57-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:39:19-49
-58        <activity android:name="com.example.loraapp.TransferSuccessActivity" />
+54        <activity android:name="com.example.loraapp.TableActivity" />
+54-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:36:9-51
+54-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:36:19-48
+55        <activity android:name="com.example.loraapp.AddSensorActivity" />
+55-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:37:9-55
+55-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:37:19-52
+56        <activity android:name="com.example.loraapp.UNAuthActivity" />
+56-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:38:9-52
+56-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:38:19-49
+57        <activity android:name="com.example.loraapp.TransferSuccessActivity" />
+57-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:39:9-61
+57-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:39:19-58
+58        <activity android:name="com.example.loraapp.RegisterSuccessActivity" />
 58-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:40:9-61
 58-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:40:19-58
-59        <activity android:name="com.example.loraapp.RegisterSuccessActivity" />
-59-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:41:9-61
-59-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:41:19-58
-60        <activity android:name="com.example.loraapp.CheckQRCodeActivity" />
-60-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:42:9-57
-60-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:42:19-54
-61        <activity android:name="com.example.loraapp.DataActivity" />
-61-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:43:9-50
-61-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:43:19-47
-62        <!--
-63             The API key for Google Maps-based APIs is defined as a string resource.
-64             (See the file "res/values/google_maps_api.xml").
-65             Note that the API key is linked to the encryption key used to sign the APK.
-66             You need a different API key for each encryption key, including the release key that is used to
-67             sign the APK for publishing.
-68             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-69        -->
-70        <meta-data
-70-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:52:9-54:55
-71            android:name="com.google.android.geo.API_KEY"
-71-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:53:13-58
-72            android:value="@string/google_maps_key" />
-72-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:54:13-52
-73
-74        <activity android:name="com.example.loraapp.MechanicActivity" />
-74-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:56:9-54
-74-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:56:19-51
-75        <activity android:name="com.example.loraapp.MainActivity" >
-75-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:57:9-63:20
-75-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:57:19-47
-76            <intent-filter>
-76-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:58:13-62:29
-77                <action android:name="android.intent.action.MAIN" />
-77-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:59:17-69
-77-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:59:25-66
-78
-79                <category android:name="android.intent.category.LAUNCHER" />
-79-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:61:17-77
-79-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:61:27-74
-80            </intent-filter>
-81        </activity>
-82        <activity android:name="com.blikoon.qrcodescanner.QrCodeActivity" >
-82-->[com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5d0b4edbf051d7b448817e7e201263d5\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:9-16:20
-82-->[com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5d0b4edbf051d7b448817e7e201263d5\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:19-74
-83        </activity> <!-- Needs to be explicitly declared on P+ -->
-84        <uses-library
-84-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
-85            android:name="org.apache.http.legacy"
-85-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
-86            android:required="false" />
-86-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
-87
-88        <activity
-88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-90            android:exported="false"
-90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-92
-93        <meta-data
-93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-94            android:name="com.google.android.gms.version"
-94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-95            android:value="@integer/google_play_services_version" />
-95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-96    </application>
-97
-98</manifest>
+59        <activity android:name="com.example.loraapp.DataActivity" />
+59-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:41:9-50
+59-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:41:19-47
+60        <!--
+61             The API key for Google Maps-based APIs is defined as a string resource.
+62             (See the file "res/values/google_maps_api.xml").
+63             Note that the API key is linked to the encryption key used to sign the APK.
+64             You need a different API key for each encryption key, including the release key that is used to
+65             sign the APK for publishing.
+66             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+67        -->
+68        <meta-data
+68-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:50:9-52:55
+69            android:name="com.google.android.geo.API_KEY"
+69-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:51:13-58
+70            android:value="@string/google_maps_key" />
+70-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:52:13-52
+71
+72        <activity android:name="com.example.loraapp.MechanicActivity" />
+72-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:54:9-54
+72-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:54:19-51
+73        <activity android:name="com.example.loraapp.MainActivity" >
+73-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:55:9-61:20
+73-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:55:19-47
+74            <intent-filter>
+74-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:56:13-60:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:57:17-69
+75-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:57:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:59:17-77
+77-->C:\Users\user\Android\SecondLoraApp\app\src\main\AndroidManifest.xml:59:27-74
+78            </intent-filter>
+79        </activity>
+80        <activity android:name="com.blikoon.qrcodescanner.QrCodeActivity" >
+80-->[com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5d0b4edbf051d7b448817e7e201263d5\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:9-16:20
+80-->[com.github.blikoon:QRCodeScanner:0.1.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5d0b4edbf051d7b448817e7e201263d5\jetified-QRCodeScanner-0.1.2\AndroidManifest.xml:15:19-74
+81        </activity> <!-- Needs to be explicitly declared on P+ -->
+82        <uses-library
+82-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+83            android:name="org.apache.http.legacy"
+83-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+84            android:required="false" />
+84-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a24878549b59c1dbe63d69c264f5e6a6\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\af7ff4cdb9585a03f0fe804445629944\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\937c5050898784d30c656655e5f36fd6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+94    </application>
+95
+96</manifest>

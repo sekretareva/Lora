@@ -1895,6 +1895,7 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id auto_focus
 id backbutt
+id barChart
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2033,6 +2034,7 @@ id leftToRight
 id light
 id line1
 id line3
+id lineChart
 id linear
 id listMode
 id list_item

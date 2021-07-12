@@ -4,31 +4,36 @@ com/example/loraapp/AddSuccessActivity.java
  com.example.loraapp.AddSuccessActivity
 com/example/loraapp/StatusResponse.java
  com.example.loraapp.StatusResponse
-com/example/loraapp/EngineerActivity.java
- com.example.loraapp.EngineerActivity
- com.example.loraapp.EngineerActivity$1
- com.example.loraapp.EngineerActivity$2
- com.example.loraapp.EngineerActivity$2$1
+com/example/loraapp/QRGenerator.java
+ com.example.loraapp.QRGenerator
 com/example/loraapp/TransferSuccessActivity.java
  com.example.loraapp.TransferSuccessActivity
 com/example/loraapp/DataActivity.java
  com.example.loraapp.DataActivity
-com/example/loraapp/MechanicActivity.java
- com.example.loraapp.MechanicActivity
- com.example.loraapp.MechanicActivity$1
- com.example.loraapp.MechanicActivity$2
- com.example.loraapp.MechanicActivity$3
- com.example.loraapp.MechanicActivity$3$1
+com/example/loraapp/DeviceListResponse.java
+ com.example.loraapp.DeviceListResponse
 com/example/loraapp/BuildConfig.java
  com.example.loraapp.BuildConfig
 com/example/loraapp/RegisterSuccessActivity.java
  com.example.loraapp.RegisterSuccessActivity
 com/example/loraapp/MainActivity.java
  com.example.loraapp.MainActivity
-com/example/loraapp/SensorActivity.java
- com.example.loraapp.SensorActivity
+com/example/loraapp/CoordsRequest.java
+ com.example.loraapp.CoordsRequest
+ com.example.loraapp.DeviceCoords
 com/example/loraapp/TableActivity.java
  com.example.loraapp.TableActivity
+com/example/loraapp/DeviceRequest.java
+ com.example.loraapp.DeviceParameters
+ com.example.loraapp.DeviceRequest
+com/example/loraapp/CoordsResponse.java
+ com.example.loraapp.CoordsResponse
+com/example/loraapp/Role.java
+ com.example.loraapp.Role
+com/example/loraapp/UNAuthActivity.java
+ com.example.loraapp.UNAuthActivity
+com/example/loraapp/Timestamp.java
+ com.example.loraapp.Timestamp
 com/example/loraapp/CheckSuccessActivity.java
  com.example.loraapp.CheckSuccessActivity
 com/example/loraapp/AddSensorActivity.java
@@ -36,6 +41,8 @@ com/example/loraapp/AddSensorActivity.java
 com/example/loraapp/ServerConnection.java
  com.example.loraapp.ServerConnection
  com.example.loraapp.ServerConnection$1
+ com.example.loraapp.ServerConnection$10
+ com.example.loraapp.ServerConnection$11
  com.example.loraapp.ServerConnection$2
  com.example.loraapp.ServerConnection$3
  com.example.loraapp.ServerConnection$4
@@ -45,19 +52,16 @@ com/example/loraapp/ServerConnection.java
  com.example.loraapp.ServerConnection$8
  com.example.loraapp.ServerConnection$9
  com.example.loraapp.ServerConnection$Connection
-com/example/loraapp/UNAuthActivity.java
- com.example.loraapp.UNAuthActivity
-com/example/loraapp/CoordsRequest.java
- com.example.loraapp.CoordsRequest
- com.example.loraapp.DeviceCoords
-com/example/loraapp/DeviceListResponse.java
- com.example.loraapp.DeviceListResponse
-com/example/loraapp/QRGenerator.java
- com.example.loraapp.QRGenerator
-com/example/loraapp/Role.java
- com.example.loraapp.Role
-com/example/loraapp/CoordsResponse.java
- com.example.loraapp.CoordsResponse
-com/example/loraapp/DeviceRequest.java
- com.example.loraapp.DeviceParameters
- com.example.loraapp.DeviceRequest
+com/example/loraapp/EngineerActivity.java
+ com.example.loraapp.EngineerActivity
+ com.example.loraapp.EngineerActivity$1
+ com.example.loraapp.EngineerActivity$2
+ com.example.loraapp.EngineerActivity$2$1
+com/example/loraapp/MechanicActivity.java
+ com.example.loraapp.MechanicActivity
+ com.example.loraapp.MechanicActivity$1
+ com.example.loraapp.MechanicActivity$2
+ com.example.loraapp.MechanicActivity$3
+ com.example.loraapp.MechanicActivity$3$1
+com/example/loraapp/SensorActivity.java
+ com.example.loraapp.SensorActivity

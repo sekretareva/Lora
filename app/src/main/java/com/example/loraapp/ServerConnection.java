@@ -2,17 +2,35 @@ package com.example.loraapp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.util.Log;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.github.mikephil.charting.charts.BarChart;
+import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.AxisBase;
+import com.github.mikephil.charting.components.XAxis;
+import com.github.mikephil.charting.data.BarData;
+import com.github.mikephil.charting.data.BarDataSet;
+import com.github.mikephil.charting.data.BarEntry;
+import com.github.mikephil.charting.data.Entry;
+import com.github.mikephil.charting.data.LineData;
+import com.github.mikephil.charting.data.LineDataSet;
+import com.github.mikephil.charting.formatter.IAxisValueFormatter;
+import com.github.mikephil.charting.formatter.ValueFormatter;
+import com.github.mikephil.charting.utils.ColorTemplate;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.gson.GsonBuilder;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -60,7 +78,7 @@ public class ServerConnection {
         this.context = context;
     }
 
-    public void getValuesDef(String device_code, ListView lv){
+    public void getValuesDef(String device_code, ListView lv, LineChart lineChart, BarChart barChart){
         Connection conn = retrofit.create(Connection.class);
         Call<List<List<String>>> call = conn.getValuesDef(device_code);
         Callback<List<List<String>>> callback = new Callback<List<List<String>>>(){
@@ -72,6 +90,11 @@ public class ServerConnection {
                     Log.d("RESULT GETVALDEF", r.get(0)+"");
                     DeviceAdapter adapter = new DeviceAdapter(r, context);
                     lv.setAdapter(adapter);
+                    try {
+                        showCharts(lineChart, barChart, r);
+                    } catch (ParseException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
 
@@ -304,6 +327,72 @@ public class ServerConnection {
             }
         };
         call.enqueue(callback);
+    }
+
+    public void showCharts(LineChart lineChart, BarChart barChart, List<List<String>> data) throws ParseException {
+        Timestamp timestamp = new Timestamp(data.get(0).get(3));
+        int period = 0;
+        if (data.size()>1){
+            period = timestamp.secDif(new Timestamp(data.get(1).get(3)));
+        }
+
+        ArrayList<Entry> lineEntry = new ArrayList<>();
+        ArrayList<BarEntry> barEntry = new ArrayList<>();
+        barEntry.add(new BarEntry(0, 1));
+        ArrayList<String> xLabelsline = new ArrayList<>();
+        ArrayList<String> xLabelsbar = new ArrayList<>();
+        xLabelsbar.add(timestamp.day + "." + timestamp.month + "\n" + timestamp.hour+":"+timestamp.minute);
+        for(int i=0;i<data.size();i++){
+            lineEntry.add(new Entry(i, Float.parseFloat(data.get(i).get(2))));
+            xLabelsline.add(data.get(i).get(3));
+
+            if (i!=0){
+                Timestamp nextTimestamp = new Timestamp(data.get(i).get(3));
+                if (timestamp.isPeriodDif(nextTimestamp, period)){
+                    timestamp = nextTimestamp;
+                    barEntry.add(new BarEntry(i, 1));
+                }
+                else {
+                    timestamp.nextTimestamp(period);
+                    barEntry.add(new BarEntry(i, 0));
+                }
+                xLabelsbar.add(timestamp.day + "." + timestamp.month + "\n" + timestamp.hour+":"+timestamp.minute);
+            }
+        }
+        LineDataSet lineDataSet = new LineDataSet(lineEntry, "Values");
+        lineDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
+        lineDataSet.setValueTextColor(Color.BLACK);
+        lineDataSet.setValueTextSize(16f);
+        LineData lineData = new LineData(lineDataSet);
+        lineChart.setData(lineData);
+        lineChart.getDescription().setText("Values");
+        lineChart.animateY(2000);
+
+        BarDataSet barDataSet = new BarDataSet(barEntry, "Statistic");
+        barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
+        barDataSet.setValueTextColor(Color.BLACK);
+        barDataSet.setValueTextSize(16f);
+        BarData barData = new BarData(barDataSet);
+        barChart.setFitBars(true);
+        barChart.setData(barData);
+        barChart.getDescription().setText("Statistic");
+        barChart.animateY(2000);
+
+        XAxis xAxisLine = lineChart.getXAxis();
+        xAxisLine.setValueFormatter(new ValueFormatter() {
+            @Override
+            public String getFormattedValue(float value) {
+                return xLabelsline.get((int)value);
+            }
+        });
+
+        XAxis xAxisBar = barChart.getXAxis();
+        xAxisBar.setValueFormatter(new ValueFormatter() {
+            @Override
+            public String getFormattedValue(float value) {
+                return xLabelsbar.get((int)value);
+            }
+        });
     }
 }
 

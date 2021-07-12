@@ -33,13 +33,11 @@
         <activity android:name=".AddSuccessActivity" />
         <activity android:name=".EngineerActivity" />
         <activity android:name=".SensorActivity" />
-        <activity android:name=".SensorMechanicActivity" />
         <activity android:name=".TableActivity" />
         <activity android:name=".AddSensorActivity" />
         <activity android:name=".UNAuthActivity" />
         <activity android:name=".TransferSuccessActivity" />
         <activity android:name=".RegisterSuccessActivity" />
-        <activity android:name=".CheckQRCodeActivity" />
         <activity android:name=".DataActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

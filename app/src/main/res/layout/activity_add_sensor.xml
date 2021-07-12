@@ -84,7 +84,7 @@
             android:textSize="17dp" />
 
         <EditText
-            android:id="@+id/sensor_group"
+            android:id="@+id/freq"
             android:layout_width="860px"
             android:layout_height="133px"
             android:layout_gravity="center_horizontal"
@@ -94,7 +94,7 @@
             android:paddingTop="3dp"
             android:paddingLeft="55px"
 
-            android:hint="@string/sensor_group"
+            android:hint="@string/freq"
             android:textColor="@color/white"
             android:textSize="17dp"
             android:inputType="textMultiLine"/>

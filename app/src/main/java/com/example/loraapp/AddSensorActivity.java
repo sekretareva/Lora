@@ -15,7 +15,7 @@ public class AddSensorActivity extends AppCompatActivity {
     String role;
     String url = "http://192.168.50.170:5000";
 
-    EditText tv_code, tv_type, tv_period, tv_sensor_group;
+    EditText tv_code, tv_type, tv_period, tv_freq;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class AddSensorActivity extends AppCompatActivity {
         tv_code = findViewById(R.id.code);
         tv_type = findViewById(R.id.type);
         tv_period = findViewById(R.id.period);
-        tv_sensor_group = findViewById(R.id.sensor_group);
+        tv_freq = findViewById(R.id.freq);
     }
 
     public void gotoMain(View v){
@@ -37,13 +37,13 @@ public class AddSensorActivity extends AppCompatActivity {
         String code = tv_code.getText().toString().trim();
         String type = tv_type.getText().toString();
         String period = tv_period.getText().toString();
-        String group = tv_sensor_group.getText().toString();
+        String freq = tv_freq.getText().toString();
 
-        if (code.length()>0 && type.length()>0 && period.length()>0 && group.length()>0){
+        if (code.length()>0 && type.length()>0 && period.length()>0 && freq.length()>0){
             ServerConnection conn = new ServerConnection(url, this);
 
             QRGenerator qrGenerator = new QRGenerator(code, this);
-            conn.sendDev(new DeviceParameters(code, qrGenerator.generate(), type, Integer.parseInt(period)));
+            conn.sendDev(new DeviceParameters(code, qrGenerator.generate(), type, Integer.parseInt(period), freq));
         }
         else{
             Toast.makeText(AddSensorActivity.this, "Заполните все поля ", Toast.LENGTH_SHORT).show();

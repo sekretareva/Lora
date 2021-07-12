@@ -8,12 +8,12 @@
         "source": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\src\\main\\res\\drawable\\secpin.png"
     },
     {
-        "merged": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -40,12 +40,12 @@
         "source": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\src\\main\\res\\drawable\\devicespick.png"
     },
     {
-        "merged": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_item.xml.flat",
-        "source": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\src\\main\\res\\layout\\sensor_item.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_sensor_item.xml.flat",
+        "source": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\src\\main\\res\\layout\\sensor_item.xml"
     },
     {
         "merged": "C:\\Users\\user\\Android\\SecondLoraApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mechanic.xml.flat",

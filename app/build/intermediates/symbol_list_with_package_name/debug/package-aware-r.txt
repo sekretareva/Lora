@@ -1994,6 +1994,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id freq
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2168,7 +2169,6 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
-id sensor_group
 id shortcut
 id showCustom
 id showHome
@@ -2495,6 +2495,7 @@ string exit
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string freq
 string google_maps_key
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
@@ -2577,7 +2578,6 @@ string real
 string role
 string rssi
 string search_menu_title
-string sensor_group
 string status
 string status_bar_notification_info_overflow
 string title_activity_fragment_map

@@ -25,11 +25,13 @@ class DeviceParameters {
     byte[] qr;
     String type;
     int period;
+    String freq;
 
-    DeviceParameters (String code, byte[] qr, String type, int period){
+    DeviceParameters (String code, byte[] qr, String type, int period, String freq){
         this.code = code;
         this.qr = qr;
         this.type = type;
         this.period = period;
+        this.freq = freq;
     }
 }

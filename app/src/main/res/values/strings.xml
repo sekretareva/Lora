@@ -8,7 +8,7 @@
 
     <string name="type">Type of measured value</string>
     <string name="period">Period</string>
-    <string name="sensor_group">Sensor group</string>
+    <string name="freq">Frequency</string>
 
     <string name="name">Name</string>
     <string name="date">Date</string>
